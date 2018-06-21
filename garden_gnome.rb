@@ -1,12 +1,17 @@
 # Code your instances here
 class GardenGnome
-  attr_accessor :name, :age, :gluten_allergy, :personality, :hat_color
+  # attr_accessor :name, :age, :gluten_allergy, :personality, :hat_color
 
+  def initialize(personality = "evil", hat_color = "red")
+    @personality = personality
+    @hat_color = hat_color
+  end
 
-  def initialize=(name, ages, personality, hat_color)
-    @name = "name"
-    @ages = "ages"
-    @personality = "evil"
+  def personality
+    @personality
+  end
+
+  def hat_color
     @hat_color
   end
 
@@ -14,17 +19,24 @@ class GardenGnome
     @name
   end
 
-  def ages
-    @ages
+  def name=(name)
+    @name = name
   end
 
-  def personality
-    "evil"
+  def age
+    @age
   end
 
-  def hat_color
-    @hat_color = "red"
+  def age=(age)
+    @age = age
   end
 
+  def gluten_allergy=(gluten_allergy)
+    @gluten_allergy = gluten_allergy
+  end
+
+  def gluten_allergy
+    @gluten_allergy
+  end
 
 end
