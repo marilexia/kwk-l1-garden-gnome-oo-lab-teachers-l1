@@ -54,4 +54,4 @@ class GardenGnome
 end
 
 gnome1 = GardenGnome.new("sweet", "blue")
-gnome1.name = "Gnomeo"
+puts gnome1.name = "Gnomeo"
