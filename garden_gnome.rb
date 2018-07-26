@@ -56,7 +56,7 @@ end
 gnome1 = GardenGnome.new("sweet", "blue")
 gnome1.name = "Gnomeo"
 gnome1.age = 16
-
+gnome1.shout
 
 puts gnome1.name
 puts gome1
