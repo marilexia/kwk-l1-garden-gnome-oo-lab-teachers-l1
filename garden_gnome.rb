@@ -52,3 +52,6 @@ class GardenGnome
   end
 
 end
+
+gnome1 = GardenGnome.new("sweet", "blue")
+gnome1.name = "Gnomeo"
