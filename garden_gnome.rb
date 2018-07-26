@@ -19,7 +19,7 @@ class GardenGnome
     @name
   end
 
-  def name=(name)
+  def name=(name) #setter
     @name = name
   end
 
