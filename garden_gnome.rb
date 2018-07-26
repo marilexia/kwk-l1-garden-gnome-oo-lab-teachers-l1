@@ -60,3 +60,4 @@ gnome1.shout
 
 puts gnome1.name
 puts gnome1.shout
+puts gnome1.gnaw
