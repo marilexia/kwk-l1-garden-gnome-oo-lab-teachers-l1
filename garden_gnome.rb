@@ -15,7 +15,7 @@ class GardenGnome
     @hat_color
   end
 
-  def name
+  def name #getter
     @name
   end
 
